@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "git_working_policy"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9.16"
 streamlit = "^1.17.0"
 
 [build-system]

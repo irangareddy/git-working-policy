@@ -239,6 +239,7 @@ python-versions = ">=3.8"
 
 [package.dependencies]
 numpy = [
+    {version = ">=1.20.3", markers = "python_version < \"3.10\""},
     {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
     {version = ">=1.23.2", markers = "python_version >= \"3.11\""},
 ]
@@ -553,8 +554,8 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "209c381d4f39ac90024f7e5ac37fca70b4192f6c813e784cca174e880264eaae"
+python-versions = "^3.9.16"
+content-hash = "d5ada2a8ab1554735443bae27bcfe4b6a492d1b687c5b3285871de4a5aa4b936"
 
 [metadata.files]
 altair = [
