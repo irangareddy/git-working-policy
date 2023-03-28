@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "git-working-policy"
+version = "0.1.0"
+description = ""
+authors = ["Ranga Reddy Nukala <rangareddy.nukala@eccenca.com>"]
+readme = "README.md"
+packages = [{include = "git_working_policy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.17.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
